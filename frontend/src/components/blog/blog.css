@@ -1,0 +1,43 @@
+.blog img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog .text {
+  padding: 40px 30px;
+}
+.blog h1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+  color: black;
+}
+.blog h1:hover {
+  color: #FF91AF;
+  cursor: pointer;
+}
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #FF91AF;
+}
+.blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+.blog span:nth-last-child(1) label {
+  color: #FF91AF;
+}
+.blog p {
+  color: grey;
+}
+.blog-single img {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+

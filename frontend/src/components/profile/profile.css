@@ -1,0 +1,48 @@
+.profile img {
+    width: 100%;
+    min-width: 65px;
+    max-width: 500px !important;
+}
+
+.profile h1,
+.profile h2,
+.profile h3,
+.profile h4,
+.profile h5,
+.profile h6,
+.profile p {
+    color: #000000;
+}
+
+.booking-table table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.booking-table .text-center {
+    text-align: center;
+}
+
+.booking-table table th,
+.booking-table table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    color: #000000;
+}
+
+.booking-table table th {
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .booking-table table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .profile .name {
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,23 @@
+import React from "react"
+import AboutCard from "../about/AboutCard"
+import Hblog from "./Hblog"
+import HAbout from "./HAbout"
+import Hero from "./hero/Hero"
+import Testimonal from "./testimonal/Testimonal"
+
+const Home = () => {
+  return (
+    <>
+      <Hero />
+      <section className='p-5'></section>
+      <section className='p-5'></section>
+      <section className='p-5'></section>
+      <AboutCard />
+      <HAbout />
+      <Testimonal />
+      <Hblog />
+    </>
+  )
+}
+
+export default Home
